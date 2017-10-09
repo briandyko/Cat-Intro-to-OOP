@@ -13,6 +13,20 @@ namespace Intro_to_OOP
             Cat mittens = new Cat();
 
             mittens.Name = "Mittens";
+
+            Cat secondCat = new Cat("Oz", 3, "orange and white");
+
+            Console.WriteLine(mittens.Name);
+            Console.WriteLine(secondCat.Name);
+
+            mittens.Eat();
+
+            mittens.WorkOut();
+
+
+
+
+
         }
     }
 }
