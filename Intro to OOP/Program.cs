@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Intro_to_OOP
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Cat mittens = new Cat();
+
+            mittens.Name = "Mittens";
+        }
+    }
+}
