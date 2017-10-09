@@ -39,31 +39,51 @@ namespace Intro_to_OOP
 
             //firstDoge.Bark();
 
-            Dog secondDoge = new Dog("fluffy", 4.04f);
+            //Dog secondDoge = new Dog("fluffy", 4.04f);
 
-            Console.WriteLine(secondDoge.FurLength);
+            //Console.WriteLine(secondDoge.FurLength);
 
-            secondDoge.Groom();
+            //secondDoge.Groom();
 
-            Console.WriteLine(secondDoge.FurLength);
+            //Console.WriteLine(secondDoge.FurLength);
 
-            secondDoge.RunningSpeed = "faster than lightning.";
+            //secondDoge.RunningSpeed = "faster than lightning.";
 
-            Console.WriteLine(secondDoge.RunningSpeed);
+            //Console.WriteLine(secondDoge.RunningSpeed);
 
-            secondDoge.Run();
+            //secondDoge.Run();
 
-            Console.WriteLine(secondDoge.RunningSpeed);
+            //Console.WriteLine(secondDoge.RunningSpeed);
 
-            secondDoge.Weight = 78.9;
+            //secondDoge.Weight = 78.9;
 
-            Console.WriteLine(secondDoge.Weight);
+            //Console.WriteLine(secondDoge.Weight);
 
-            secondDoge.Potty();
+            //secondDoge.Potty();
 
-            Console.WriteLine(secondDoge.Weight);
+            //Console.WriteLine(secondDoge.Weight);
 
-            secondDoge.Bark();
+            //secondDoge.Bark();
+
+            Superhero badGuy = new Superhero();
+
+            badGuy.CatchPhrase = "wow";
+            badGuy.EvilEnergy = 100;
+
+            Console.WriteLine(badGuy.CatchPhrase);
+
+            badGuy.Taunt();
+
+            Console.WriteLine(badGuy.CatchPhrase + " " + badGuy.EvilEnergy + " point increase");
+
+            badGuy.PowerUp();
+
+            Console.WriteLine(badGuy.UltimateWeapon + " " + badGuy.EvilEnergy + " point increase");
+
+            badGuy.Escape();
+
+            Console.WriteLine(badGuy.EvilLair);
         }
+    }  
+        
     }
-}
